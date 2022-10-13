@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" class="hasjs">
+  <head>
+    <title>D2 Weapon Companion</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div class="main">
+      <div class ="about">
+        <h1>Destiny 2 Weapon Companion - Sign up for the open beta today!</h1>
+        <p>Destiny 2 Weapon Companion is a new tool to view your favorite weapons and armor, grab bounties, and create loadouts. Using the Bungie API, we strive to give the fastest experience of any third-party app on both mobile and desktop. Sign up for our newsletter and learn when the open beta is available!</p>
+      </div>
+      <form methond="get" action="#null" name="registrationForm" pnsubmit="return chkempty()">
+        <div class="registrationTitle">
+          <h2>Sign Up Today!</h2>
+        </div>
+        <div class="registrationInput">
+          <label>First Name:</label>
+          <input type="text" name="firstName" placeholder="First Name">
+       <label>Last Name:</label>
+          <input type="text" name="lastName" placeholder="Last Name">
+       <label>email Address:</label>
+          <input type="email" name="email" placeholder="guardian@bungie.net" pattern="^.+@.+$" />
+        <label>Bungie ID:</label>
+          <input type="text" name="bungieID" placeholder="Guardian#0000" />
+        <label>Choose Primary Platform</label>
+         <select>
+           <option value="steam">Steam</option>
+           <option value="epicGamesStore">Epic Games Store</option>
+           <option value="stadia">Stadia</option>
+           <option value="xbox">Xbox</option>
+           <option value="playstation">PlayStation</option>
+         </select>
+        </div>
+        <div class="check">
+         <input type="checkbox" name="checkbox">
+         <label>I consent to emails and newsletters regarding Destiny 2 Weapon Companion</label>
+         <input type="checkbox" name="checkbox">
+         <label>I agree to Destiny 2 Weapon Companion's Terms of Use</label>
+        </div>
+        <button type="Submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
