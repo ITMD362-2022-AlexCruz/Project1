@@ -2,25 +2,24 @@
 <html lang="en" class="hasjs">
   <head>
     <title>D2 Weapon Companion</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
     <link rel=icon href="assets/images/d2WeaponCompanionTabIcon.png">
-    <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css" />
-    <link rel="stylesheet" media="screen" href="css/screen.css" />
+    <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
+    <link rel="stylesheet" media="screen" href="css/screen.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <script src="js/site.js" async></script>
   </head>
   <body>
     <div class="main">
       <div class ="about">
-        <div class="banner">
-          <img src="assets/images/d2WeaponCompanionOpenBeta.png">
-        </div>
+        <img src="assets/images/d2WeaponCompanionOpenBeta.png" alt="D2 Weapon Companion">
         <h1>Destiny 2 Weapon Companion</h1>
         <h2>Sign up for the open beta today!</h2>
         <p>Destiny 2 Weapon Companion is a new tool to view your favorite weapons and armor, grab bounties, and create loadouts. Using the Bungie API, we strive to give the fastest experience of any third-party app on both mobile and desktop. Sign up for our newsletter and learn when the open beta is available!</p>
       </div>
-      <form methond="get" action="#null" name="registrationForm" pnsubmit="return chkempty()">
+    </div>
+      <form method="get" action="#null" name="registerForm" onsubmit="return chkemtpy()">
         <div class="registrationTitle">
           <h2>Sign Up Today!</h2>
         </div>
@@ -30,9 +29,9 @@
        <label>Last Name:</label>
           <input type="text" name="lastName" placeholder="Last Name">
        <label>Email Address:</label>
-          <input type="email" name="email" placeholder="guardian@bungie.net" pattern="^.+@.+$" />
+          <input type="email" name="email" placeholder="guardian@bungie.net" pattern="^.+@.+$">
         <label>Bungie ID:</label>
-          <input type="text" name="bungieID" placeholder="Guardian#0000" />
+          <input type="text" name="bungieID" placeholder="Guardian#0000">
         <label>Choose Primary Platform</label>
          <select>
            <option value="steam">Steam</option>
@@ -49,8 +48,6 @@
          <label>I agree to Destiny 2 Weapon Companion's Terms of Use.</label>
         </div>
         <button type="Submit">Submit</button>
-        </div>
       </form>
-    </div>
   </body>
 </html>
