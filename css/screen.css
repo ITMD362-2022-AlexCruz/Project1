@@ -49,7 +49,11 @@ p {
   flex-direction: column;
 }
 .check {
-  font-size: 24px;
+  font-size: 20px;
+  vertical-align: center;
+}
+.check2 {
+  font-size: 20px;
   vertical-align: center;
 }
 label {
