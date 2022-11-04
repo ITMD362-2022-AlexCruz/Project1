@@ -3,8 +3,9 @@ html {
 }
 body {
   background-image: url("assets/destiny2WallPaper.jpg");
+  background-size: auto;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 150%;
   min-height: 100%;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   padding: 0;
@@ -14,26 +15,31 @@ body {
 h1 {
   text-transform: uppercase;
   background: #2b2a29;
+  width: 800px;
   font-size: 26px;
   font-weight: bold;
 }
 h2 {
   text-transform: uppercase;
   background: #2b2a29;
+  width: 800px;
   margin: auto;
   font-size: 26px;
   font-weight: bold;
 }
 p {
-	padding-top: 13px;
+  font-size: 16px;
+  width: 800px;
   background: #2b2a29;
+}
+img {
+  width: 800px;
+  height: auto;
 }
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 32px;
+  align-items: left;
 }
 .about {
   padding: 36px;
@@ -61,7 +67,9 @@ label {
   vertical-align: center;
 }
 form {
-  padding: 72px;
+  margin-left: 226px;
+  width: 800px;
+  padding: 36px;
   background: #2b2a29;
   opacity: 0.85;
 }
