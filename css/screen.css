@@ -74,7 +74,7 @@ select {
   padding: 5px;
   margin-bottom: 30px;
 }
-button {
+#submit {
   color: #2b2a29; 
   font-size: 20px;
   width: 100%;
@@ -85,7 +85,7 @@ button {
   border-radius: 5px; 
   
 }
-button:hover {
+#submit:hover {
   background: #e67438;
 }
 
